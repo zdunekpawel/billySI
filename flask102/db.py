@@ -10,7 +10,7 @@ def get_db():
     g.db=pymysql.connect(
         host='127.0.0.1',
         user='root',
-        password='!QA2ws3ed',
+        password='Secret',
         db='testo'
     ).cursor()
     return g.db
